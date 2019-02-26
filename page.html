@@ -9,15 +9,56 @@
 </head>
 <body>
     <h1>Para comenzar vamos a conocer algunas medidas de css.</h1>
+    <div id="medidas">
+    
     <h2>Medidas Relativas</h2>
     Las medidas relativas están conformadas por
     <ul>
-        <li>px</li>
-        <div>px hace referencia a los pixeles que quieren utilizarse para esta medida</div>
-        <li>em</li>
+        <div id="opciones"><li>px</li>
+        px hace referencia a los pixeles que quieren utilizarse <br>
+            para esta medida, puede ser aplicado a valores como width, <br>
+            height, font-size, margin, padding, etc<br>
+            un ejemplos sería este:<p id="px">texto</p>al cual le aplicamos 30px de font-size.
+        </div>
+        <div id="opciones"><li>em</li>
+            em es relativa a el tamaño de letra actual, por ejemplo, si tenemos un:
+            <p id="em1">Texto y dentro de este otro 
+                <p id="em2">texto dentro</p>en el primer texto tenemos un tamaño de 20px y
+            en el siguiente texto tenemos un tamaño de 2em lo cual es el doble del primer texto que lo contenía.</p>
+            </div>
+        
+        
+        <div id="opciones">
         <li>ex</li>
+            ex depende del tamaño de la fuente que se está utilizando
+            tomando como base su tamaño inicial y parte de ahí para añadir-quitar tamaño
+            <p id="ex">Este es un texto de ejemplo</p>
+            A este texto le estamos dando un 3 de ex
+        </div>
+        <div id="opciones">
         <li>rem</li>
+            rem hace referencia al font-size que ya hemos definido dentro de una etiqueta
+            <p id="rem">Este es un texto de ejemplo aqui le damos font-size de 15px
+                <p id="rem2">aqui le damos tamaño de 1.5rem</p></p>
+        </div>
     </ul>
+    </div>
+    <div>
+    <h2>Medidas Absolutas</h2>
+    <ul>
+        <li>in</li>
+        <p id="in">Indica cuantas pulgadas de medida aqui tiene 0.1in</p>
+        <li>cm</li>
+        <p id="cm">indica cuantos cm de medida, aqui tiene .5cm</p>
+        <li>pt</li>
+        <p id="pt">indica cuantos puntos (unidad de medida de tipografías) se estan utilizando
+        aqui son 20pt;</p>
+        <li>mm</li>
+        <p id="mm">indica cuantos milímetros de tamaño, aquí son 12mm</p>
+        <li>pc</li>
+
+    </ul>
+    </div>
     
 </body>
 </html>

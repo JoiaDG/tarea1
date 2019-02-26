@@ -1,0 +1,48 @@
+#px{
+    font-size:30px;
+    border-style: dashed;    
+}
+#em1{
+    font-size:20px;
+    border-style: dashed;
+}
+#em2{
+    font-size:2em;
+    border-style: dashed;
+}
+#ex{
+    font-size:3ex;
+    border-style: dashed;
+}
+#rem{
+    font-size:15px;
+    border-style: dashed;
+}
+#rem2{
+    font-size:1.5rem;
+    border: black dashed 1px;
+}
+#opciones{
+    border-style: solid;
+    padding:20px;
+    margin: 30px;
+    
+}
+#medidas{
+    padding:20px;
+    margin:10px;
+    border:gray 2px solid;
+}
+
+#in{
+    font-size:0.1in;
+}
+#cm{
+    font-size:.5cm;
+}
+#pt{
+    font-size:20pt;
+}
+#mm{
+    font-size:12mm;
+}
