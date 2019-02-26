@@ -46,3 +46,19 @@
 #mm{
     font-size:12mm;
 }
+#pc{
+    font-size:1.1pc;
+}
+#p{
+    font-size:200%;
+}
+
+#rgb{
+    background-color:rgb(100,10,100);
+}
+#hsl{
+    background-color:hsl(120, 100%, 50%)
+}
+#hsla{
+    background-color:hsla(120, 100%, 50%, 0.3);
+}
